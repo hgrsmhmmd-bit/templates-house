@@ -263,7 +263,7 @@ button{cursor:pointer;border:0;border-radius:12px;padding:10px 16px;font-weight:
    <div class="field"><span class="lg">المادة (الشخصية) *</span><div class="seg" id="fStyle"></div></div>
    <div class="field"><label for="fType">نوع التفاعل</label><select id="fType"><option value="">—</option></select></div>
    <div class="field"><label for="fDesc">ريفيو / وصف (بيظهر للمستخدم)</label><textarea id="fDesc" placeholder="التمبلت بيعمل إيه، ينفع لأنهي درس، وإزاي يتعدل"></textarea></div>
-   <div class="field"><label for="fTags">كلمات ظاهرة للمستخدم</label><input id="fTags" placeholder="افصلي بفاصلة: إيقاع، ألوان، KG"></div>
+   <div class="field"><label for="fTags">كلمات ظاهرة للمستخدم</label><input id="fTags" placeholder="افصلي بفاصلة أو ؛ : إيقاع، ألوان، KG"></div>
    <div class="field secret"><label for="fHidden">🔒 كلمات مخفية للبحث بس</label><input id="fHidden" placeholder="مرادفات وأخطاء إملائية: كويز، quiz، دراج"><small>مش بتظهر للمستخدم، بس بتساعده يلاقي التمبلت لما يكتب كلمة قريبة.</small></div>
    <div class="field"><label for="fLink">لينك تحميل التمبلت *</label><input id="fLink" type="url" placeholder="https://drive.google.com/file/…"><small>لينك الملف نفسه على Drive (مش الفولدر)، ومفتوح لأي حد معاه اللينك.</small></div>
    <div class="field"><label for="fReview">لينك المعاينة (اختياري)</label><input id="fReview" type="url" placeholder="Review 360 أو فيديو أو Preview على Drive"></div>
@@ -466,7 +466,7 @@ STYLES.forEach((s,i)=>{const r=mk('input');r.type='radio';r.name='fStyleR';r.id=
  const f=mk('div','field');const lb=mk('label',null,'📂 فولدر '+s.key+' ('+s.code+')');lb.htmlFor='fo'+i;const inp=mk('input');inp.type='url';inp.id='fo'+i;inp.dataset.k=s.key;inp.placeholder='https://drive.google.com/drive/folders/…';f.append(lb,inp);$('folderFields').append(f)});
 const radio=n=>(document.querySelector('input[name="'+n+'"]:checked')||{}).value||'';
 const setRadio=(n,v)=>document.querySelectorAll('input[name="'+n+'"]').forEach(r=>r.checked=r.value===v);
-const list=s=>s.split(/[,،\n]+/).map(x=>x.trim()).filter(Boolean);
+const list=s=>s.split(/[,،؛;\n]+/).map(x=>x.trim()).filter(Boolean);
 const msg=t=>$('fMsg').textContent=t;
 function toast(t){const e=$('toast');e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2600)}
 function reallyOpen(){$('drawer').hidden=false;$('dim').hidden=false;$('fTitle').focus()}
