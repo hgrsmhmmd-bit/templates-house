@@ -577,8 +577,8 @@ renderHints();route();
 (async()=>{
  try{
   const [t,c]=await Promise.all([
-   fetch('data/templates.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.json()}),
-   fetch('data/config.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({}))]);
+   fetch('data/templates.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json()}),
+   fetch('data/config.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({}))]);
   all=(Array.isArray(t)?t:[]).filter(x=>byKey(x.style));folders=c.folders||{};dbState='ok';
  }catch{dbState='off'}
  render();
