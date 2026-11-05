@@ -5,3 +5,5 @@
 - الموقع صفحة واحدة ثابتة (`index.html`) شغالة على GitHub Pages.
 - البيانات في `data/templates.json` و `data/config.json`، والصور في `images/`.
 - الملفات دي بتتحدّث أوتوماتيك كل ساعة من استوديو المالك على claude.ai ومن فولدرات Google Drive. متعدّليهاش بإيدك هنا، عشان التحديث الجاي هيكتب فوقها.
+
+🔗 الموقع: https://hgrsmhmmd-bit.github.io/TEMP/
