@@ -11,6 +11,6 @@
   },
   "chat": {
     "room": "https://chat.google.com/room/AAQAx2vW3RE",
-    "webhook": ""
+    "webhook": "https://chat.googleapis.com/v1/spaces/AAQAx2vW3RE/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Qn4nkVEjTUdTvXL8NSriA8Pa6dSsz3PpcEkwN4lKz94"
   }
 }
