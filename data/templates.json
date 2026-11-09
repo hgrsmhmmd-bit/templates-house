@@ -158,5 +158,50 @@
     "shots": [
       "a91299e6d85869e2c5c166c5dd5aab6e"
     ]
+  },
+  {
+    "id": "drive_1rooFYnXgesr4FRzMnuq1xUJ4CCkxTfY4",
+    "title": "choose pick one ado",
+    "style": "موسيقي",
+    "type": "",
+    "description": "",
+    "tags": [],
+    "hidden": [
+      "choose_pick_one_ado.story",
+      "ADO"
+    ],
+    "link": "https://drive.google.com/file/d/1rooFYnXgesr4FRzMnuq1xUJ4CCkxTfY4/view?usp=drivesdk",
+    "review": "",
+    "shots": []
+  },
+  {
+    "id": "drive_17makQhMil7b_uQxqMe0X3msWsJioyiNk",
+    "title": "choose pick one vsl",
+    "style": "بصري",
+    "type": "",
+    "description": "",
+    "tags": [],
+    "hidden": [
+      "choose_pick_one_vsl.story",
+      "VSL"
+    ],
+    "link": "https://drive.google.com/file/d/17makQhMil7b_uQxqMe0X3msWsJioyiNk/view?usp=drivesdk",
+    "review": "",
+    "shots": []
+  },
+  {
+    "id": "drive_18TjeMR6_R2F5YDs-JypftVGf1WaFN3Tt",
+    "title": "choose(pick one)",
+    "style": "أدائي",
+    "type": "",
+    "description": "",
+    "tags": [],
+    "hidden": [
+      "choose(pick_one)PFM.story",
+      "PFM"
+    ],
+    "link": "https://drive.google.com/file/d/18TjeMR6_R2F5YDs-JypftVGf1WaFN3Tt/view?usp=drivesdk",
+    "review": "",
+    "shots": []
   }
 ]
