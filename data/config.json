@@ -8,5 +8,9 @@
     "بصري": "",
     "موسيقي": "https://drive.google.com/file/d/1ZQjDt45CKvfM2bihI1MNgKlPT3BllmiJ/view",
     "أدائي": "https://drive.google.com/file/d/1hC7ZM5rb_bKElBLq9seQeOhApCqLkcjG/view"
+  },
+  "chat": {
+    "room": "https://chat.google.com/room/AAQAx2vW3RE",
+    "webhook": ""
   }
 }
